@@ -62,7 +62,7 @@ file_handler.setFormatter(file_formatter)
 logger.addHandler(file_handler)
 
 # === БОТ ===
-BOT_TOKEN = "8049745792:AAEmq5_8i-TLmM9YundzJxwJdOJ9SopDYGU"
+BOT_TOKEN = "--"
 
 bot = Bot(token=BOT_TOKEN)
 storage = MemoryStorage()
